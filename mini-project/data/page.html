@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link href="page.css" rel="stylesheet">
+</head>
+
+<body>
+
+<h1 style="text-align:center;font-size:36px;">Shabu Shop</h1>
+<div class = "card">
+  <p style="text-align:center;">TableID: 1</p>
+  <div class='column'>
+    <div class = "left_col">
+      <div class = "block">
+        <p>Timer</p>
+          <span class="text" id = "time">%TIME%</span></br>
+        <button class="button" id="start" style="vertical-align:middle"><span>Start</span></button>
+        <button class="button" id="reset" style="vertical-align:middle"><span>Reset</span></button>
+      </div>
+    </div>
+    <div class = "right_col">
+      <div class = "block">
+        <p>Order Status</p>
+        <span class="text" id="orderStatus">%ORDERSTATUS%</span></br>
+        <button class="button" style="vertical-align:middle" id="response"><span>Accept</span></button>
+      </div>
+      <div class = "box">
+      </div>
+
+    </div>
+  </div>
+</div>
+<script src="page.js"></script>
+</body>
+</html>
